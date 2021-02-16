@@ -1,0 +1,148 @@
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  color: #9FB0BF;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  color:#9FB0BF;
+ 
+}
+
+
+/* Navigation bar */
+
+/* General */
+.customNav {
+  position: fixed;
+  width: 100%;
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.navbar-brand img {
+  padding-right: 3px;
+  width: 150px;
+}
+.nav-item {
+  margin: 0px 15px;
+
+}
+
+/* Navigation dropdown menu */
+.dropdown-menu {
+  background: url("../images/transperency green.png");
+  background-color: transparent !important;
+  background-size: cover;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #9FB0BF;
+    text-decoration: none;
+    background:#9FB0BF;
+}
+
+/* Navigation links */
+.customNav a {
+  color: white !important;
+}
+.navCTA {
+  font-size: 15px;
+  background: #52D981;
+}
+
+/* Jumbotron  */
+.jumbotron {
+  background-image: url(../images/MePic_hero_logo@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Jumbotron copy */
+.jumboCopy {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: white;
+  text-align: center;
+}
+
+/* Cards */
+.content {
+  padding: 50px;
+}
+.sectionHeading {
+  text-align: center;
+}
+.showsNear  {
+  padding: 0px 30px 30px 30px;
+}
+.cardContainer {
+  text-align: center;
+}
+
+/* Content */
+.sideAccent {
+  background: #45BF70;
+  width: 15px;
+}
+.imageContainer img {
+  width: 100%;
+}
+.imageContainer {
+  padding: 50px;
+}
+.valueProp {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+.emailContain {
+  background: url(../images/Marifooter.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 810px;
+}
+
+/* Footer form */
+form {
+  width: 400px;
+  margin-right: 800px;
+  padding: 30px;
+  border: 1px solid #F2F2F2;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+  background-color: whitesmoke;
+}
+
+/* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
+.dropdown-menu {
+  left: -97px;
+}
+footer {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+  margin-top: 50px;
+}
+.cardContainer {
+  margin-top: 20px;
+}
+.card {
+  margin: 0 auto;
+}
