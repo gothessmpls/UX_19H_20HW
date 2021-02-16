@@ -156,5 +156,30 @@ footer {
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
 }
+h1 {
+  color:#9FB0BF;
+  font size: 4rem;
+  font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text align:center;
+  line-height: 100vh; 
+
+  span {
+    opacity: 0;
+    transition: all 0.4s ease;
+
+  }
+
+  span.fade {
+    opacity: 1;
+  }
+
+
+
+   
+  
+
+
+}
+
 
 

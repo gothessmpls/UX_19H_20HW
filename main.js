@@ -1,10 +1,27 @@
-/* Safari */
-@-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-  }
+
   
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
+  const text = document.querySelector("UX/UI DESIGNER");
+  const strText = text.textContent;
+  const splitText = strText.split("");
+  text.textContent = "";
+for (let i = 0; i < splitText.length; i++){
+    text.innerHTML +- "<span>" + splitText[i] + "</span>";
+
+}
+let char = 0;
+let timer = setInterval(onTick, 50);
+
+function onTick(){
+    const span = text.querySelectorAll('span')[char];
+    span.classList.add ('fade');
+    char++
+    if(char=== splitText.length){
+        complete();
+        return;
+    }
+}
+function complete(){
+    clearInterval(timer);
+    timer = null;
+}
+    
