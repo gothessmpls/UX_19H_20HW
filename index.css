@@ -149,9 +149,19 @@ footer {
 
 .card1 {
  padding: 700px;
- position: absolute;
- width: 100%;
-  }
+}
+.imageContainer img {
+  width: 100%;
+}
+.imageContainer {
+  padding: 50px;
+}
+.valueProp {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+ 
   .sectionHeading {
     text-align: center;
   }
