@@ -149,6 +149,8 @@ footer {
 
 .card1 {
  padding: 700px;
+ position: absolute;
+ width: 100%;
   }
   .sectionHeading {
     text-align: center;
