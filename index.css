@@ -147,8 +147,22 @@ footer {
   margin: 0 auto;
 }
 
+.card1 {
+ padding: 100px;
+  }
+  .sectionHeading {
+    text-align: center;
+  }
+  .showsNear  {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: center;
 
 }
+
+
+
 
 .loader {
   border: 16px solid #f3f3f3;
