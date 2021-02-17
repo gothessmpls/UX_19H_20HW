@@ -151,7 +151,7 @@ footer {
  padding: 700px;
 }
 .imageContainer img {
-  width: 100%;
+  width: absolute;
 }
 .imageContainer {
   padding: 700px;
