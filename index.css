@@ -188,14 +188,13 @@ footer {
 
 h1 {
   color:#9FB0BF;
-  font size: 4rem;
-  font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  text align:center;
+  font-size: 4rem;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align:center;
   line-height: 100vh;
 }
 
-
-  span {
+span {
     opacity: 0;
     transition: all 0.4s ease;
 
