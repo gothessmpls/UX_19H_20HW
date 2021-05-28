@@ -191,8 +191,9 @@ h1 {
   font size: 4rem;
   font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   text align:center;
-  line-height: 100vh; 
+  line-height: 100vh;
 }
+
 
   span {
     opacity: 0;
@@ -203,7 +204,7 @@ h1 {
   span.fade {
     opacity: 1;
   }
-}
+
 
 
 
